@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/Style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>
+            CHAT-BOT INTEGRATION !
+        </h1>
+        <p>
+            Shows you the images nad tell you a joke to make your day.
+        </p>
+
+        <h3>Some of the button to manipulate the chatbot</h3>
+        <h3>Make sure when you login use password as hello25</h3>
+        <ul>
+            <li>
+                <button type="button" onclick="showBot()">Show</button>
+            </li>
+            <li>
+                <button type="button" onclick="hideBot()">Hide</button>
+            </li>
+            <li>
+                <button type="button" onclick="destroyBot()">Destroy</button>
+            </li>
+            <li>
+                <button type="button" onclick="initBot()">Initiate</button>
+            </li>
+            <li>
+                <form>
+                    <label>Prompt bot a message</label>
+                    <input type="text" placeholder="title" name="title" required>
+                    <input type="text" placeholder="message" name="message" required>
+                    <button type="button" onclick="promptBot()">Submit</button>
+                </form>
+            </li>
+        </ul>
+
+        <h1>Sign up</h1>
+        <h3>-----------------------------------------------------------------------</h3>
+            <form action="/login" method="POST">
+                <label>Mobile Number</label>
+                <input type="number" placeholder="Mobile-Number" name="mobilenumber" id="mobilenumber">
+                <label>Password</label>
+                <input type="password" placeholder="Password" name="password" id="password">
+                <button type="button" onclick="signup()">Add</button>
+            </form>
+        <h3>-----------------------------------------------------------------------</h3>
+
+    </center>
+
+    <!-- <h1>Hello Testing</h1> -->
+
+    <!-- <img onClick="openChat()" src="https://www.bing.com/th?id=OIP.7S-cyQken1be2OlHOtnqWAHaHa&w=204&h=204&c=8&rs=1&qlt=90&dpr=1.25&pid=3.1&rm=2" class="custom-icon"> -->
+
+
+
+    <script src="/Script/script.js"></script>
+    <script
+        type="text/javascript"
+        charset="UTF-8"
+        src="https://toolassets.haptikapi.com/platform/javascript-xdk/production/loader.js"
+    ></script>
+</body>
+</html>

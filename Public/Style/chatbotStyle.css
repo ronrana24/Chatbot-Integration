@@ -1,0 +1,48 @@
+.minimized-view, .minimized-view-text{
+    background-color: #1A090D !important;
+    color : #cd9bda !important;
+}
+
+.minimized-view-unread-count{
+    border-radius: 5px !important;
+    background-color: #ACE894;
+}
+
+/* chat window - top header */
+.header{
+    background-color : #A8BA9A !important;
+    color: white !important;
+}
+
+/* chat window - message section */
+.message-section-area {
+    background-image: url('https://tinyurl.com/ycavlsec') !important;
+}
+
+.message-section-message-row.from-user .message-section-message-bubble-text,
+.message-section-message-row.from-business .message-section-message-bubble-text {
+    padding : 10px;
+    font-size : 16px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.taskbox-body {
+    background-color: #4A314D !important;
+}
+
+/* chat window - composer */
+.composer {
+    background-color : #A8BA9A !important;
+}
+
+.composer-icon {
+    color: #4A314D !important;
+}
+
+.composer > textarea, .composer > textarea::-webkit-input-placeholder {
+    color: black !important;
+}
+
+.composer-icon.right {
+    transform: rotate(-90deg) !important;
+}
